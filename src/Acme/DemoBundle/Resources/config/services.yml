@@ -1,0 +1,13 @@
+services:
+    # API Errors
+    api.error.acme_demo:
+        class: Acme\DemoBundle\Error\AcmeErrors
+        public: false
+        tags:
+            - { name: api.error, handler: main }
+
+    # API Actions
+    api.handler.main.acme_demo:
+        class: Acme\DemoBundle\Api\AcmeDemoApi
+        tags:
+            - { name: api.action, handler: main }

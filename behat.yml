@@ -1,0 +1,11 @@
+default:
+    suites:
+        acme_demo:
+            paths: [ %paths.base%/features/acme_demo ]
+            contexts:
+                - FeatureContext
+
+    extensions:
+        Behat\Symfony2Extension: ~
+        Solution\JsonRpcApiExtension:
+            base_url: http://symfony-backend-edition.dev/ # Please enter you domain for testing

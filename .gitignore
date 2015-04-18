@@ -1,0 +1,43 @@
+# Vagrant configuration
+/vagrant/.vagrant
+
+# System directories
+/var/bootstrap.php.cache
+/var/SymfonyRequirements.php
+/app/config/parameters.yml
+
+# Logs directories
+/var/logs/*
+!var/logs/.gitkeep
+
+# Cache directories
+/var/cache/*
+!var/cache/.gitkeep
+
+# Cache and directories in "app" directory
+/app/logs
+/app/cache
+
+# Deployment configuration
+!app/config/deploy/.gitkeep
+
+# Build directories
+/build/
+
+# Binary directories/files
+/bin/*
+!/bin/console
+
+# Web directories and files
+/web/bundles
+
+# Composer
+/vendor/
+/composer.phar
+
+# Other files/directories
+/.idea/
+.DS_Store
+/atlassian-ide-plugin.xml
+.rsync_cache
+*~
