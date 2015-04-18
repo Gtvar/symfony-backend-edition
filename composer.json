@@ -34,7 +34,6 @@
 
         "fivepercent/model-transformer": "@dev",
         "fivepercent/model-normalizer": "@dev",
-        "fivepercent/transactional": "dev-master",
         "fivepercent/var-tag-validator": "dev-master",
         "fivepercent/object-mapper": "dev-master",
         "fivepercent/converter": "dev-master",
