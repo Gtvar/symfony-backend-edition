@@ -1,6 +1,6 @@
 {
-    "name": "fivepercent/symfony-backend-edition",
-    "description": "Create a Backend application with FivePercent packages and Symfony2 Application",
+    "name": "fivelab/symfony-backend-edition",
+    "description": "Create a Backend application with fivelab packages and Symfony2 Application",
     "keywords": [ "symfony", "backend", "api" ],
     "license": "MIT",
 
@@ -32,13 +32,13 @@
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
 
-        "fivepercent/model-transformer": "@dev",
-        "fivepercent/model-normalizer": "@dev",
-        "fivepercent/var-tag-validator": "dev-master",
-        "fivepercent/object-mapper": "dev-master",
-        "fivepercent/converter": "dev-master",
-        "fivepercent/integration-bundle": "dev-master",
-        "fivepercent/api-bundle": "dev-master"
+        "fivelab/model-transformer": "~1.0",
+        "fivelab/model-normalizer": "~1.0",
+        "fivelab/var-tag-validator": "~1.0",
+        "fivelab/object-mapper": "~1.0",
+        "fivelab/converter": "~1.0",
+        "fivelab/integration-bundle": "~1.0",
+        "fivelab/api-bundle": "~1.0"
     },
 
     "require-dev": {
@@ -83,11 +83,5 @@
         "incenteev-parameters": {
             "file": "app/config/parameters.yml"
         }
-    },
-
-    "repositories": [
-        {"type": "composer", "url": "http://toran.internalone.com/repo/private/"},
-        {"type": "composer", "url": "http://toran.internalone.com/repo/packagist/"},
-        {"packagist": false}
-    ]
+    }
 }
